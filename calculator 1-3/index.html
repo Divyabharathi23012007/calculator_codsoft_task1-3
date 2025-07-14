@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <button class="btn clear-everything" id="clear-everything">CE</button>
+        <div class="calculator-display-tabs">
+            <div class="display-tab">
+                <div class="display-label">Function</div>
+                <div class="calculator-secondary-display" id="secondary-display"></div>
+            </div>
+            <div class="display-tab">
+                <div class="display-label">Result</div>
+                <input type="text" class="calculator-display" id="display" disabled />
+            </div>
+        </div>
+        <div class="calculator-scientific-layout">
+            <div class="functions-left">
+                <button class="btn function" data-func="sin">sin</button>
+                <button class="btn function" data-func="cos">cos</button>
+                <button class="btn function" data-func="tan">tan</button>
+            </div>
+            <div class="functions-top">
+                <button class="btn function" data-func="pi">π</button>
+                <button class="btn mode" id="deg-mode">DEG</button>
+                <button class="btn mode" id="rad-mode">RAD</button>
+            </div>
+            <div class="calculator-buttons">
+                <button class="btn" data-value="7">7</button>
+                <button class="btn" data-value="8">8</button>
+                <button class="btn" data-value="9">9</button>
+                <button class="btn operator" data-value="/">&divide;</button>
+
+                <button class="btn" data-value="4">4</button>
+                <button class="btn" data-value="5">5</button>
+                <button class="btn" data-value="6">6</button>
+                <button class="btn operator" data-value="*">&times;</button>
+
+                <button class="btn" data-value="1">1</button>
+                <button class="btn" data-value="2">2</button>
+                <button class="btn" data-value="3">3</button>
+                <button class="btn operator" data-value="-">&minus;</button>
+
+                <button class="btn" data-value="0">0</button>
+                <button class="btn" data-value=".">.</button>
+                <button class="btn" id="clear">C</button>
+                <button class="btn operator" data-value="+">+</button>
+
+                <button class="btn equal" id="equals">=</button>
+            </div>
+            <div class="functions-right">
+                <button class="btn function" data-func="log">log</button>
+                <button class="btn function" data-func="sqrt">√</button>
+                <button class="btn function" data-func="pow">x<sup>y</sup></button>
+                <button class="btn function" data-func="root">x<sup>1/y</sup></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
