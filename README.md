@@ -1,6 +1,8 @@
 # Scientific Calculator
 
 A modern, feature-rich scientific calculator built with HTML, CSS, and JavaScript. This calculator provides both basic arithmetic operations and advanced scientific functions with a sleek, professional interface.
+## 🚀 Try It Live
+👉 https://effortless-selkie-1ba5ed.netlify.app/
 
 ## Features
 
